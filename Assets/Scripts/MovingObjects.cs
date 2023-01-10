@@ -39,6 +39,7 @@ public class MovingObjects : MonoBehaviour
     //Ici, on détruit le cube grace à un clic de la souris dessus
     private void OnMouseDown()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
